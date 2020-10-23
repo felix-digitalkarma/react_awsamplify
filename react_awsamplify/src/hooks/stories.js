@@ -29,7 +29,7 @@ export const Stories = () => {
         </a>
         .
       </p>
-      <ol>
+      <ol className="lead">
         <li>
           As an newcomer, I want to find recovery tools, whether that be in the
           form of meetings, literature, videos or podcasts, methods or
