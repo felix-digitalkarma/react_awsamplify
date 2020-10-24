@@ -1,0 +1,15 @@
+projects:
+  reactawsamplify-dev:
+    schemaPath: react_awsamplify/src/graphql/schema.json
+    includes:
+      - react_awsamplify/src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: us-west-2
+        apiId: m3moprgwkrbafpow4qmpojq3nq
+        maxDepth: 2
