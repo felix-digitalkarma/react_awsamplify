@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 import Amplify, { API, graphqlOperation } from "aws-amplify";
-import createTodo from "../../../src/graphql/mutations";
-import listTodos from "../../../src/graphql/queries.gql";
-import awsExports from "../../../src/aws-exports";
+import { createTodo } from "../graphql/mutations";
+import { listTodos } from "../graphql/queries";
+import awsExports from "../aws-exports";
 
 import { Helmet } from "react-helmet-async";
 import styled from "styled-components";

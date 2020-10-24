@@ -1,8 +1,8 @@
 projects:
   reactawsamplify-dev:
-    schemaPath: src/graphql/schema.json
+    schemaPath: react_awsamplify/src/graphql/schema.json
     includes:
-      - src/graphql/**/*.js
+      - react_awsamplify/src/graphql/**/*.js
     excludes:
       - ./amplify/**
     extensions:
