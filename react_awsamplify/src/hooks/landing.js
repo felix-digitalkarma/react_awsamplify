@@ -23,10 +23,6 @@ const ImageContainer = styled.div`
   }
 `;
 
-const StyledInput = styled.input`
-  margin-left: 10px;
-`;
-
 const Landing = () => {
   return (
     <div className="text-center cover-container d-flex p-3 mx-auto flex-column">
