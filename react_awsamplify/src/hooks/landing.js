@@ -65,56 +65,6 @@ const Landing = () => {
           service, sponsorship, and support for our local and global
           communities.
         </p>
-        {/*  <div className="mailchimp">
-          <div id="mc_embed_signup">
-            <form
-              action="https://community.us17.list-manage.com/subscribe/post?u=a254665802cbb1a49a2513c1a&amp;id=b4cf8b1c8e"
-              method="post"
-              id="mc-embedded-subscribe-form"
-              name="mc-embedded-subscribe-form"
-              className="validate"
-              target="_blank"
-              noValidate
-            >
-              <div id="mc_embed_signup_scroll">
-                <label htmlFor="mce-EMAIL">
-                  Subscribe to hear about project updates.
-                </label>
-
-                <input
-                  type="email"
-                  name="EMAIL"
-                  className="email form-control"
-                  id="mce-EMAIL"
-                  placeholder="email address"
-                  required
-                />
-
-                <div
-                  style={{ position: "absolute", left: "-5000px" }}
-                  aria-hidden="true"
-                >
-                  <input
-                    type="text"
-                    name="b_a254665802cbb1a49a2513c1a_b4cf8b1c8e"
-                    tabIndex="-1"
-                  />
-                </div>
-                <div className="clear">
-                  <StyledInput
-                    type="submit"
-                    value="Subscribe"
-                    name="subscribe"
-                    id="mc-embedded-subscribe"
-                    className="btn btn-success"
-                  />
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        
-        */}
       </main>
     </div>
   );
