@@ -13,9 +13,6 @@ export const Login = () => {
     password: "",
   });
   const { email, password } = formData;
-
-  const test = 4 * 3;
-
   const [state, actions] = useAuthStore();
 
   const onChange = (e) =>
