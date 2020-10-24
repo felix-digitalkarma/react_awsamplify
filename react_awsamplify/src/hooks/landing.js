@@ -35,6 +35,7 @@ const Landing = () => {
       </Helmet>
       <main role="main" className="inner cover">
         <div className="jumbotron ">
+          <p className="lead">Design temporary.</p>
           <ImageContainer>
             <ImageIcons image={python_logo} height={"100px"} width={"100px"} />
             <ImageIcons image={circuit_logo} height={"100px"} width={"100px"} />
